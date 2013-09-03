@@ -476,7 +476,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		4044CAAB17D4E8240058EB00 /* SKTaglib.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = SKTaglib.app; path = "SKTaglib-test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4044CAAB17D4E8240058EB00 /* SKTaglib.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = SKTaglib.app; path = "TagLib-Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4044CAAC17D4E8240058EB00 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		4044CAAF17D4E8240058EB00 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		4044CAB317D4E8240058EB00 /* SKTaglib-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SKTaglib-Info.plist"; sourceTree = "<group>"; };
@@ -1361,7 +1361,7 @@
 		9529F0FD15DBFC95000303A6 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0440;
+				LastUpgradeCheck = 0460;
 			};
 			buildConfigurationList = 9529F10015DBFC95000303A6 /* Build configuration list for PBXProject "TagLib" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -1729,6 +1729,9 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -1754,6 +1757,9 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
