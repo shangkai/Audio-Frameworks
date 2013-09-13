@@ -99,6 +99,24 @@
 		4044CAC817D4E8240058EB00 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4044CAC617D4E8240058EB00 /* ViewController.xib */; };
 		40BCC99317D4FEF7002737CD /* libTagLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9529F2CD15DC0097000303A6 /* libTagLib.a */; };
 		40BCC99517D4FF36002737CD /* 孩子的眼睛.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 40BCC99417D4FF36002737CD /* 孩子的眼睛.mp3 */; };
+		40BCCA3E17D5916E002737CD /* modfile.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9529F14815DBFD59000303A6 /* modfile.h */; };
+		40BCCA3F17D5916E002737CD /* modfilebase.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9529F14A15DBFD59000303A6 /* modfilebase.h */; };
+		40BCCA4017D5916E002737CD /* modfileprivate.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9529F14B15DBFD59000303A6 /* modfileprivate.h */; };
+		40BCCA4117D5916E002737CD /* modproperties.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9529F14D15DBFD59000303A6 /* modproperties.h */; };
+		40BCCA4217D5916E002737CD /* modtag.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9529F14F15DBFD59000303A6 /* modtag.h */; };
+		40BCCA4317D5916E002737CD /* mpcfile.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9529F15F15DBFD59000303A6 /* mpcfile.h */; };
+		40BCCA4417D5916E002737CD /* mpcproperties.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9529F16115DBFD59000303A6 /* mpcproperties.h */; };
+		40BCCA4517D5916E002737CD /* attachedpictureframe.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9529F16B15DBFD59000303A6 /* attachedpictureframe.h */; };
+		40BCCA4617D5916E002737CD /* commentsframe.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9529F16D15DBFD59000303A6 /* commentsframe.h */; };
+		40BCCA4717D5916E002737CD /* generalencapsulatedobjectframe.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9529F16F15DBFD59000303A6 /* generalencapsulatedobjectframe.h */; };
+		40BCCA4817D5916E002737CD /* popularimeterframe.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9529F17115DBFD59000303A6 /* popularimeterframe.h */; };
+		40BCCA4917D5916E002737CD /* privateframe.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9529F17315DBFD59000303A6 /* privateframe.h */; };
+		40BCCA4A17D5916E002737CD /* relativevolumeframe.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9529F17515DBFD59000303A6 /* relativevolumeframe.h */; };
+		40BCCA4B17D5916E002737CD /* textidentificationframe.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9529F17715DBFD59000303A6 /* textidentificationframe.h */; };
+		40BCCA4C17D5916E002737CD /* uniquefileidentifierframe.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9529F17915DBFD59000303A6 /* uniquefileidentifierframe.h */; };
+		40BCCA4D17D5916E002737CD /* unknownframe.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9529F17B15DBFD59000303A6 /* unknownframe.h */; };
+		40BCCA4E17D5916E002737CD /* unsynchronizedlyricsframe.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9529F17D15DBFD59000303A6 /* unsynchronizedlyricsframe.h */; };
+		40BCCA4F17D5916E002737CD /* urllinkframe.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9529F17F15DBFD59000303A6 /* urllinkframe.h */; };
 		9529F1F415DBFD59000303A6 /* apefile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9529F11C15DBFD59000303A6 /* apefile.cpp */; };
 		9529F1F515DBFD59000303A6 /* apefile.h in Headers */ = {isa = PBXBuildFile; fileRef = 9529F11D15DBFD59000303A6 /* apefile.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9529F1F615DBFD59000303A6 /* apefooter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9529F11E15DBFD59000303A6 /* apefooter.cpp */; };
@@ -391,6 +409,24 @@
 			dstPath = "include/${PRODUCT_NAME}";
 			dstSubfolderSpec = 16;
 			files = (
+				40BCCA3E17D5916E002737CD /* modfile.h in CopyFiles */,
+				40BCCA3F17D5916E002737CD /* modfilebase.h in CopyFiles */,
+				40BCCA4017D5916E002737CD /* modfileprivate.h in CopyFiles */,
+				40BCCA4117D5916E002737CD /* modproperties.h in CopyFiles */,
+				40BCCA4217D5916E002737CD /* modtag.h in CopyFiles */,
+				40BCCA4317D5916E002737CD /* mpcfile.h in CopyFiles */,
+				40BCCA4417D5916E002737CD /* mpcproperties.h in CopyFiles */,
+				40BCCA4517D5916E002737CD /* attachedpictureframe.h in CopyFiles */,
+				40BCCA4617D5916E002737CD /* commentsframe.h in CopyFiles */,
+				40BCCA4717D5916E002737CD /* generalencapsulatedobjectframe.h in CopyFiles */,
+				40BCCA4817D5916E002737CD /* popularimeterframe.h in CopyFiles */,
+				40BCCA4917D5916E002737CD /* privateframe.h in CopyFiles */,
+				40BCCA4A17D5916E002737CD /* relativevolumeframe.h in CopyFiles */,
+				40BCCA4B17D5916E002737CD /* textidentificationframe.h in CopyFiles */,
+				40BCCA4C17D5916E002737CD /* uniquefileidentifierframe.h in CopyFiles */,
+				40BCCA4D17D5916E002737CD /* unknownframe.h in CopyFiles */,
+				40BCCA4E17D5916E002737CD /* unsynchronizedlyricsframe.h in CopyFiles */,
+				40BCCA4F17D5916E002737CD /* urllinkframe.h in CopyFiles */,
 				4044CA5617D4E6300058EB00 /* config.h in CopyFiles */,
 				4044CA5717D4E6300058EB00 /* taglib_config.h in CopyFiles */,
 				4044CA5817D4E6300058EB00 /* apefile.h in CopyFiles */,
@@ -476,7 +512,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		4044CAAB17D4E8240058EB00 /* SKTaglib.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = SKTaglib.app; path = "TagLib-Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4044CAAB17D4E8240058EB00 /* TagLib-Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TagLib-Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4044CAAC17D4E8240058EB00 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		4044CAAF17D4E8240058EB00 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		4044CAB317D4E8240058EB00 /* SKTaglib-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SKTaglib-Info.plist"; sourceTree = "<group>"; };
@@ -764,7 +800,7 @@
 			children = (
 				9529F10A15DBFC95000303A6 /* TagLib.framework */,
 				9529F2CD15DC0097000303A6 /* libTagLib.a */,
-				4044CAAB17D4E8240058EB00 /* SKTaglib.app */,
+				4044CAAB17D4E8240058EB00 /* TagLib-Test.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1314,7 +1350,7 @@
 			);
 			name = "TagLib-Test";
 			productName = SKTaglib;
-			productReference = 4044CAAB17D4E8240058EB00 /* SKTaglib.app */;
+			productReference = 4044CAAB17D4E8240058EB00 /* TagLib-Test.app */;
 			productType = "com.apple.product-type.application";
 		};
 		9529F10915DBFC95000303A6 /* TagLib */ = {
